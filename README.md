@@ -10,7 +10,6 @@
 - **Cài đặt Node.js và npm (hoặc yarn, pnpm):** Tìm hiểu cách cài đặt Node.js runtime và trình quản lý gói.
 - **Tìm hiểu về kiến trúc của Node.js:** Event loop, non-blocking I/O.
 - **Các Core Modules của Node.js:**
-
   - fs (File System): Làm việc với tệp và thư mục.
   - path: Thao tác với đường dẫn tệp.
   - http và https: Xây dựng web server cơ bản.
@@ -19,7 +18,6 @@
   - events: Làm việc với sự kiện.
 
 - **Package Manager (npm/yarn/pnpm):**
-
   - Hiểu về tệp package.json.
   - Cài đặt, cập nhật, gỡ cài đặt packages.
   - Sử dụng npm scripts để tự động hóa các tác vụ.
@@ -27,7 +25,6 @@
 **3\. Phát triển Backend với Frameworks:**
 
 - **Express.js:** Đây là framework Node.js phổ biến nhất cho việc xây dựng các ứng dụng web và API.
-
   - Routing: Định nghĩa các đường dẫn (endpoints) của ứng dụng.
   - Middleware: Xử lý các request và response.
   - Templating Engines (ví dụ: EJS, Handlebars): Nếu bạn muốn render các trang HTML từ server.
@@ -38,13 +35,11 @@
 **4\. Làm việc với Databases:**
 
 - **SQL Databases:**
-
   - PostgreSQL, MySQL, SQL Server.
   - Học về SQL: Các câu lệnh truy vấn, tạo bảng, schema, joins, v.v.
   - ORM (Object-Relational Mapping) cho Node.js: Sequelize, TypeORM, Prisma.
 
 - **NoSQL Databases:**
-
   - MongoDB, Couchbase.
   - Tìm hiểu về các khái niệm NoSQL và cách làm việc với chúng trong Node.js.
   - ODM (Object-Document Mapping) cho Node.js: Mongoose (cho MongoDB).
@@ -52,14 +47,12 @@
 **5\. Xây dựng API:**
 
 - **RESTful API:**
-
   - Hiểu các nguyên tắc của REST (Representational State Transfer).
   - Thiết kế API endpoints (URLs), HTTP methods (GET, POST, PUT, DELETE), status codes.
   - Xử lý request và response (JSON).
 
 - **GraphQL (tùy chọn):** Một ngôn ngữ truy vấn cho API, cung cấp sự linh hoạt cao hơn cho client.
 - **API Authentication và Authorization:**
-
   - Các phương pháp xác thực: Basic Auth, Session-based, Token-based (JWT).
   - Các phương pháp ủy quyền: RBAC (Role-Based Access Control).
 
@@ -85,3 +78,11 @@
 - **Xây dựng các ứng dụng hoàn chỉnh:** Ví dụ: blog, ứng dụng todo, ứng dụng quản lý, v.v.
 - **Tham gia các dự án mã nguồn mở:** Để học hỏi kinh nghiệm từ các nhà phát triển khác.
 - **Làm bài tập và thử thách coding:** Trên các nền tảng như LeetCode, HackerRank.
+
+🎉 Tổng kết MongoDB
+Mongoose Method Tương đương Array
+User.find() users
+User.findById(id) users.find(u => u.id === id)
+new User(data).save() users.push(data)
+User.findByIdAndUpdate(id, data) users[index] = {...}
+User.findByIdAndDelete(id) users.splice(index, 1)
