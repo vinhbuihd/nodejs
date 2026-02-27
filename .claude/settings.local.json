@@ -4,7 +4,8 @@
       "Bash(node:*)",
       "Bash(curl:*)",
       "Bash(taskkill:*)",
-      "Bash(npm start)"
+      "Bash(npm start)",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTExZWRjNTJhY2MxYWJlMzg3ZDdhNiIsImlhdCI6MTc3MjE2Njg4MiwiZXhwIjoxNzcyMTcwNDgyfQ.Mmt-nK_2PDcSO8EEZiBy4lo8K6hva7DVrBnipX50bX8\")"
     ]
   }
 }
